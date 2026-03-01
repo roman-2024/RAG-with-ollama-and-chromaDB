@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+
+# Temporary folders
+temp_docs/
+chroma_db/
+
+# PDF uploads
+*.pdf
