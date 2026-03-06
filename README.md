@@ -1,6 +1,5 @@
 # 📄 RAG Project with Ollama & ChromaDB
 ## RAG Architecture
-## RAG System Architecture
 
 ![RAG System](rag_system_ollama_chromadb.png)
 
@@ -65,6 +64,7 @@ https://github.com/roman-2024/RAG-with-ollama-and-chromaDB
 
 ```bash
 python -m venv venv
+or use uv python 3.11 are best
 ```
 
 Activate it:
