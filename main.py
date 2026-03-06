@@ -49,35 +49,3 @@ if st.session_state.rag_chain:
             with st.expander("Context"):
                 for doc in docs:
                     st.info(doc.page_content)
-# Question input and answer
-# if st.session_state.rag_chain:
-#     question = st.text_input("Ask your question")
-
-#     if st.button("Get Answer") and question:
-#         with st.spinner("Thinking..."):
-#             # Invoke RAG chain
-#             response = st.session_state.rag_chain.invoke(question)
-#             st.subheader("Answer")
-#             st.write(response)
-
-#             # Show context used
-#             with st.expander("Context"):
-#                 retriever = st.session_state.vector_store.as_retriever()
-#                 docs = retriever.retrieve(question)  # <-- fixed line
-#                 for doc in docs:
-#                     st.info(doc.page_content)
-# if st.session_state.rag_chain:
-#     question = st.text_input("Ask your question")
-
-#     if st.button("Get Answer") and question:
-#         with st.spinner("Thinking..."):
-#             # Invoke chain
-#             response = st.session_state.rag_chain.invoke(question)
-#             st.subheader("Answer")
-#             st.write(response)
-
-#             # Show context used
-#             with st.expander("Context"):
-#                 docs = st.session_state.vector_store.as_retriever().get_relevant_documents(question)
-#                 for doc in docs:
-#                     st.info(doc.page_content)

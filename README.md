@@ -1,7 +1,8 @@
 # 📄 RAG Project with Ollama & ChromaDB
 ## RAG Architecture
+## RAG System Architecture
 
-![RAG Architecture](RAG system with Ollama and ChromaDB.png)
+![RAG System](rag_system_ollama_chromadb.png)
 
 A simple **Retrieval-Augmented Generation (RAG)** application that allows users to upload a PDF document and ask questions about its content.
 
@@ -176,5 +177,5 @@ This project is open-source and available under the **MIT License**.
 
 ## 👨‍💻 Author
 
-Roman Ahmed
+Roman Ahmed,
 Data Science & Machine Learning Enthusiast
