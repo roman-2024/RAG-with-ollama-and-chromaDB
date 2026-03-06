@@ -1,4 +1,7 @@
 # 📄 RAG Project with Ollama & ChromaDB
+## RAG Architecture
+
+![RAG Architecture](RAG system with Ollama and ChromaDB.png)
 
 A simple **Retrieval-Augmented Generation (RAG)** application that allows users to upload a PDF document and ask questions about its content.
 
